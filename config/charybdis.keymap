@@ -148,7 +148,7 @@
         layer_4 {
             bindings = <
 &trans          &trans  &trans  &trans       &trans       &trans           &trans             &trans     &trans     &trans     &trans  &trans
-&kp ESC         &kp Q   &kp W   &kp E        &kp R        &kp T            &trans             &trans     &trans     &trans     &trans  &trans
+&kp ESC         &kp Q   &kp W   &kp E        &kp R        &kp T            &trans             &trans     &trans     &trans     &trans  &tog 0
 &kp CAPS        &kp A   &kp S   &kp D        &kp F        &kp G            &kp K_SCROLL_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
 &kp LEFT_SHIFT  &kp Z   &kp X   &kp C        &kp V        &kp B            &kp K_SCROLL_DOWN  &trans     &trans     &trans     &trans  &trans
                                 &lt 1 SPACE  &lt 2 SPACE  &kp RIGHT_GUI    &kp RIGHT_ALT      &kp RCTRL
