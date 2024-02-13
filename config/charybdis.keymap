@@ -155,7 +155,6 @@
                                              &trans       &trans           &trans
             >;
 
-            trackball-bindings = <&tsl>;
         };
 
         layer_5 {
@@ -180,6 +179,8 @@
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
+
+            trackball-bindings = <&tsl>;
         };
     };
 };
