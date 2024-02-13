@@ -154,7 +154,6 @@
                                 &lt 1 SPACE  &lt 2 SPACE  &kp RIGHT_GUI    &kp RIGHT_ALT      &kp RCTRL
                                              &trans       &trans           &trans
             >;
-
         };
 
         layer_5 {
