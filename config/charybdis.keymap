@@ -136,22 +136,22 @@
 
         Mouse {
             bindings = <
-&none        &none   &none   &none   &none      &none        &none         &none         &none         &none         &none         &none
-&none        &trans  &trans  &trans  &trans     &trans       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none        &trans  &trans  &trans  &trans     &none        &kp TILDE     &mkp LCLK     &mkp RCLK     &mkp MCLK     &trans        &none
-&bootloader  &trans  &trans  &mo 4   &trans     &mo 5        &kp TAB       &trans        &trans        &trans        &trans        &bootloader
-                             &mo 5   &mkp LCLK  &mkp RCLK    &mkp RCLK     &mkp LCLK
-                                     &none      &trans       &trans
+&none        &none   &none   &none   &none   &none     &none                 &none         &none         &none         &none         &none
+&none        &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&none        &trans  &trans  &trans  &trans  &trans    &kp C_AC_SCROLL_UP    &mkp LCLK     &mkp RCLK     &mkp MCLK     &trans        &none
+&bootloader  &trans  &trans  &trans  &trans  &trans    &kp C_AC_SCROLL_DOWN  &trans        &trans        &trans        &trans        &bootloader
+                             &trans  &trans  &trans    &mkp RCLK             &mkp LCLK
+                                     &none   &trans    &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans             &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp K_SCROLL_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp K_SCROLL_DOWN  &trans     &trans     &trans     &trans  &trans
-                        &trans  &trans  &trans    &kp RIGHT_ALT      &kp RCTRL
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_AC_SCROLL_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_AC_SCROLL_DOWN  &trans     &trans     &trans     &trans  &trans
+                        &trans  &trans  &trans    &kp RIGHT_ALT         &kp RCTRL
                                 &trans  &trans    &trans
             >;
         };
