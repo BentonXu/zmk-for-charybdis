@@ -114,23 +114,23 @@
 
         layer_1 {
             bindings = <
-&kp TILDE     &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR     &kp PERCENT    &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp TAB       &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5         &kp F1       &kp F2         &kp F3        &kp F4                &kp F5                 &kp F6
-&kp ENTER     &kp NUMBER_6     &kp N7        &kp N8        &kp N9         &kp N0         &kp F7       &kp F8         &kp F9        &kp F10               &kp F11                &kp F12
-&kp KP_EQUAL  &kp PLUS         &kp MINUS     &kp ASTERISK  &kp KP_DIVIDE  &kp DOT        &kp PAGE_UP  &kp PAGE_DOWN  &kp COMMA     &kp PERIOD            &kp SLASH              &kp ESC
-                                             &kp LEFT_ALT  &kp SPACE      &trans         &kp ENTER    &kp BACKSPACE
-                                                           &none          &none          &trans
+&kp TILDE  &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR     &kp PERCENT    &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp TAB    &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5         &kp F1       &kp F2         &kp F3        &kp F4                &kp F5                 &kp F6
+&kp ENTER  &kp NUMBER_6     &kp N7        &kp N8        &kp N9         &kp N0         &kp F7       &kp F8         &kp F9        &kp F10               &kp F11                &kp F12
+&kp EQUAL  &kp PLUS         &kp MINUS     &kp ASTERISK  &kp KP_DIVIDE  &kp DOT        &kp PAGE_UP  &kp PAGE_DOWN  &kp COMMA     &kp PERIOD            &kp SLASH              &kp ESC
+                                          &kp LEFT_ALT  &kp SPACE      &trans         &kp ENTER    &kp BACKSPACE
+                                                        &none          &none          &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp F12         &kp F1    &kp F2    &kp F3        &kp F4     &kp F5       &kp F6        &kp F7           &kp F8          &kp F9             &kp F10           &kp F11
-&kp TAB         &macro1   &macro2   &macro3       &macro4    &macro5      &none         &kp C_VOLUME_UP  &kp UP_ARROW    &kp C_VOLUME_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp ENTER       &macro6   &macro7   &macro8       &macro9    &macro10     &none         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans            &trans
-&kp LEFT_SHIFT  &macro11  &macro12  &kp F3        &kp F8     &trans       &bt BT_SEL 0  &trans           &trans          &trans             &none             &none
-                                    &kp LEFT_ALT  &kp SPACE  &kp ENTER    &trans        &kp BACKSPACE
-                                                  &trans     &trans       &none
+&kp F12    &kp F1    &kp F2    &kp F3        &kp F4     &kp F5       &kp F6        &kp F7           &kp F8          &kp F9             &kp F10           &kp F11
+&kp TAB    &macro1   &macro2   &macro3       &macro4    &macro5      &none         &kp C_VOLUME_UP  &kp UP_ARROW    &kp C_VOLUME_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ENTER  &macro6   &macro7   &macro8       &macro9    &macro10     &none         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans            &trans
+&kp EQUAL  &macro11  &macro12  &kp F3        &kp F8     &trans       &bt BT_SEL 0  &trans           &trans          &trans             &none             &none
+                               &kp LEFT_ALT  &kp SPACE  &kp ENTER    &trans        &kp BACKSPACE
+                                             &trans     &trans       &none
             >;
         };
 
