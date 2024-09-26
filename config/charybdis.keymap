@@ -127,7 +127,7 @@
             bindings = <
 &kp F12    &kp F1    &kp F2    &kp F3        &kp F4     &kp F5       &kp F6        &kp F7           &kp F8          &kp F9             &kp F10           &kp F11
 &kp TAB    &macro1   &macro2   &macro3       &macro4    &macro5      &none         &kp C_VOLUME_UP  &kp UP_ARROW    &kp C_VOLUME_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp ENTER  &macro6   &macro7   &macro8       &macro9    &macro10     &none         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans            &trans
+&kp ENTER  &macro6   &macro7   &macro8       &macro9    &macro10     &none         &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans            &bt BT_CLR_ALL
 &kp EQUAL  &macro11  &macro12  &kp F3        &kp F8     &trans       &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3       &bt BT_SEL 4      &bt BT_CLR
                                &kp LEFT_ALT  &kp SPACE  &kp ENTER    &trans        &kp BACKSPACE
                                              &trans     &trans       &none
